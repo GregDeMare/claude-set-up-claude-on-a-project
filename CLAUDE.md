@@ -1,3 +1,4 @@
+What can I deliberately leave out of this CLAUDE.md
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -10,9 +11,7 @@ A small Express REST API (users + health check) backed by an in-memory store.
 - `npm test`: run all tests (Node's built-in `node --test` runner, no Jest/Mocha)
 - `node --test --test-name-pattern="404" tests/users.test.js`: run a single test by name
 - `npm run lint`: ESLint (`eslint:recommended`, ESLint 8 legacy `.eslintrc.json` config)
-- `node --inspect src/app.js` : Start the API in inspection mode to attach Chrome DevTools or VS Code debuggers:
-
-CI (`.github/workflows/ci.yml`) runs `npm run lint` and then `npm test` on Node 22. Both must pass.
+- `node --inspect server.js` : Start the API in inspection mode to attach Chrome DevTools or VS Code debuggers:
 
 ## Conventions
 
