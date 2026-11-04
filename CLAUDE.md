@@ -1,4 +1,3 @@
-What can I deliberately leave out of this CLAUDE.md
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
